@@ -103,8 +103,9 @@ public class BinaryTree {
 				System.out.println("deleting " + data);
 				return root.leftnode;
 			} else {
-				// nodes with two nodes
-				// search for min number in right sub tree Integer
+				// find the (minimum in the right subtree) / (maximum in left subtree) 
+				// copy that minimum/maximum value in the targeted node 
+				// delete the duplicate from the
 				int minValue = minValue(root.rightnode);
 				root.value = (minValue);
 				root.rightnode = (deleteNode(root.rightnode, minValue));
