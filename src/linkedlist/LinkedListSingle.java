@@ -6,9 +6,9 @@ public class LinkedListSingle {
 
 	public LinkedListSingle() {
 //		uncomment for insertItemAtLast
-//		head = new Node();
-//		head.value = 0;
-//		head.next = null;
+		head = new Node();
+		head.value = 0;
+		head.next = null;
 	}
 
 	void insertItemAtLast(int i) {
